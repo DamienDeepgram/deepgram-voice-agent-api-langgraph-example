@@ -1,0 +1,22 @@
+{
+  "name": "deepgram-voice-agent-api-langgraph-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/langgraph": "^0.2.32",
+    "audio-player": "^1.1.0",
+    "dotenv": "^16.4.7",
+    "mic": "^2.1.2",
+    "microphone-stream": "^6.0.1",
+    "node-record-lpcm16": "^1.0.1",
+    "speaker": "^0.5.5",
+    "wav": "^1.0.2",
+    "ws": "^8.18.0"
+  }
+}
